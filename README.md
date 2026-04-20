@@ -1,6 +1,20 @@
-# Hello
+# UCCX & Webex Contact Center Portfolio
 My Gists
-Hi Humans!
-I have over 25 years of experience in telecommunications, including systems engineering, coding, script writing, field engineering, engineering product development, product management, marketing analysis, sales support, and management, scientific, and technical consulting.
+A working library of scripts, flows, integrations, and reporting tooling I've built while administering and troubleshooting Cisco UCCX and Webex Contact Center environments. This repo is intended as a portfolio of my hands-on work in the Cisco collaboration / contact center space.
+Author: Jim Pilgrim (FS4USA)
+Focus areas: Cisco UCCX, Webex Contact Center, Webex Calling, call quality troubleshooting, CDR analysis, API automation.
+What's in here
+SectionContentsuccx/UCCX script (.aef) examples, documented call flow logic, and IVR/queue/error-handling patterns.webex-contact-center/Webex Contact Center flow JSON exports, flow documentation, and integration examples.api-integrations/Python examples against the Webex APIs, Control Hub, and UCCX REST/AXL for automation and reporting.reporting/CDR parsing, call-quality analysis, and fixed-interval drop detection scripts.docs/Sanitization guide, style notes, and reference material.
+Skills demonstrated
 
-Experience building and executing on large scale projects as Project Lead, Discovery Analysis, Implementation Project Leader and Systems Design Expert. Lead and train personnel. I develop Cisco UC Solutions and implement large Cisco Voice projects at the enterprise, national and global levels. I have designed, built and deployed large scale deployments of Call Manager, Unity Connect and Contact Center (Enhanced and Premium). Subject matter expert to customers and other staff members. Solid Cisco skills with Cisco Unified Call Manager, Cisco Unity Connection, Cisco Voice Gateways, Cisco Emergency Responder, Cisco Unified Contact Center Express and Cisco Unified Presence, and Jabber.
+Cisco UCCX script design (.aef): prompts, variables, queue handling, call routing, error branches.
+Webex Contact Center flow design: entry points, queues, virtual agents, business hours, routing strategies.
+Webex Calling administration and troubleshooting: Control Hub analytics, CDR interpretation, session-timer and NAT-related drop diagnosis.
+API automation: Webex APIs, Control Hub Admin APIs, UCCX REST/XML APIs.
+Call-quality analysis: jitter, packet loss, MOS, fixed-interval drop pattern detection (e.g., the classic 22-minute SIP Session Timer teardown).
+Carrier troubleshooting coordination (GRM, Lumen, Peerless, generic ITSP patterns).
+
+A note on client data
+Every artifact in this repo has been sanitized. Real customer names, phone numbers, extensions, user names, MAC addresses, IP addresses, UUIDs, hostnames, and any other identifying information have been replaced with generic placeholders (Customer A, +1-555-0100, ext. 1001, aa:bb:cc:dd:ee:ff, 10.0.0.0/24, 00000000-0000-0000-0000-000000000000, etc.). See docs/SANITIZATION.md for the exact substitution rules I apply.
+License
+Released under the MIT License. See LICENSE.
